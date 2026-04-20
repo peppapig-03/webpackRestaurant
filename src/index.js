@@ -1,7 +1,7 @@
 import "./styles.css"
 import home from "./home.js"
 import menu from "./menu.js"
-import about from "./about.js"
+import contact from "./contact.js"
 const buttonArray = document.querySelectorAll("button")
 const content = document.querySelector("#content")
 const clearContents = function () {
@@ -15,7 +15,7 @@ const clearButtonColor = function () {
         button.classList.add("inactive")
     })
 }
-const funcArray = [home, menu, about]
+const funcArray = [home, menu, contact]
 buttonArray.forEach((button, index) => {
     button.addEventListener("click", (event) => {
         clearContents()
@@ -26,4 +26,4 @@ buttonArray.forEach((button, index) => {
     })
 })
 const buttons = document.querySelectorAll("button")
-buttons[1].click()
+buttons[2].click()
