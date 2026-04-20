@@ -26,4 +26,4 @@ buttonArray.forEach((button, index) => {
     })
 })
 const buttons = document.querySelectorAll("button")
-buttons[2].click()
+buttons[0].click()
