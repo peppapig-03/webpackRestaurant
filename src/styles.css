@@ -1,0 +1,19 @@
+body{
+    background-color:#Fee379
+}
+header{
+    padding:20px 0px;
+    height:7.5dvh
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    height:100%
+}
+button{
+    aspect-ratio:2;
+    border-radius:10px;
+    border-style:none;
+    font-size:20px
+}
